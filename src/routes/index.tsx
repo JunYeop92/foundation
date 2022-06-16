@@ -6,7 +6,7 @@ export default function App() {
     <div className={styles.app}>
       <Routes>
         <Route path='/' element={<div>home</div>} />
-        <Route path='next' element={<div>next</div>} />
+        <Route path='about' element={<div>about</div>} />
         <Route path='*' element={<div>404</div>} />
       </Routes>
     </div>
